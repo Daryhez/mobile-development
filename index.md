@@ -9,5 +9,6 @@ In this website you can find all challenges of subject.
 
 |Challenge|Name|Deadline|Link|
 |---------|----|--------|----|
-|0|Hello World in Android Studio|29th Aug|[Link](https://github.com/Daryhez/mobile-development/tree/master/challenge0/HelloWorld)|
-|1|Project proposal|3rd Sep|[Link](https://github.com/Daryhez/mobile-development/tree/master/challenge1)
+|0|Hello World in Android Studio|Aug 29th|[Link](https://github.com/Daryhez/mobile-development/tree/master/challenge0/HelloWorld)|
+|1|Project proposal|Sep 3rd|[Link](https://github.com/Daryhez/mobile-development/tree/master/challenge1)
+|2|Prototype and Canvas model|Sep 10th|[Link](https://github.com/Daryhez/mobile-development/tree/master/challenge2)|
