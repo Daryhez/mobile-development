@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal" >
+
+    <TableLayout
+        android:id="@+id/summary"		 			android:layout_width="fill_parent"
+        android:layout_height="wrap_content"      	android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        >
+
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/human_won_t"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Human: "
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/human_won"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="0"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/finish_tie_t"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Ties: "
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/finish_tie"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="0"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/android_won_t"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Android: "
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/android_won"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="0"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:layout_marginRight="20dp"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <edu.harding.tictactoe.BoardView
+        android:id="@+id/board"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView android:id="@+id/information"    	           	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"    			android:text="info"
+        android:gravity="center_horizontal" 		      android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <TextView android:id="@+id/flloter1"    	           	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"    			android:text="Developed by:"
+        android:gravity="center_horizontal" 		      android:layout_marginTop="200dp"
+        android:textSize="20sp" />
+
+    <TextView android:id="@+id/flloter2"    	           	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"    			android:text="Daniel Alejandro Escobar Prieto"
+        android:gravity="center_horizontal" 		      android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+</LinearLayout>
