@@ -15,4 +15,4 @@ In this website you can find all challenges of subject.
 |3|Graphical Interface|Sep 17th|[Link](https://github.com/Daryhez/mobile-development/tree/master/challenge3)|
 |4|Menus and Dialogs|Sep 24th|[Link](https://github.com/Daryhez/mobile-development/tree/master/challenge4)|
 |5|Graphics and Audio|Oct 1st|[Link](https://github.com/Daryhez/mobile-development/tree/master/challenge5)|
-|5|Preferences|Oct 15th|[Link](https://github.com/Daryhez/mobile-development/tree/master/challenge6)|
+|6|Preferences|Oct 15th|[Link](https://github.com/Daryhez/mobile-development/tree/master/challenge6)|
